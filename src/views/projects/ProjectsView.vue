@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import ProjectsMain from './partials/ProjectsMain.vue';
+
+</script>
+
 <template>
-    <p>salut projects</p>
+    <ProjectsMain />
 </template>

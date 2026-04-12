@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import H1 from '@/components/typography/H1.vue';
-import HomeBio from './partials/HomeBio.vue';
-import { Camera } from '@lucide/vue';
+import H1 from '@/components/typography/H1.vue'
+import HomeBio from './partials/HomeBio.vue'
+import { Camera } from '@lucide/vue'
 import {
   Card,
   CardContent,
@@ -10,33 +10,15 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-
+import ProjectsMain from '../projects/partials/ProjectsMain.vue';
+import ContactMain from '../contact/partials/ContactMain.vue';
 </script>
 
 <template>
   <H1 title="Sébastien Cavaglia" subtitle="Web Developer" />
-  <HomeBio />
+  <HomeBio class="w-3/5 mx-auto" />
   <hr class="m-auto mt-12 w-1/2" />
-  
-
-
-  <Card>
-    <CardHeader>
-      <CardTitle>Card Title</CardTitle>
-      <CardDescription>Card Description</CardDescription>
-    </CardHeader>
-    <CardContent>
-      <p>Card Content</p>
-    </CardContent>
-    <CardFooter>
-      <p>Card Footer</p>
-    </CardFooter>
-  </Card>
-  <p>dfgdfg</p>
-  <p>TEST LIEN</p>
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-      </nav>
+  <ProjectsMain />
+  <hr class="m-auto mt-12 w-1/2" />
+ <ContactMain /> 
 </template>
-
