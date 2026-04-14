@@ -105,7 +105,7 @@ const seriesColors = [
       <ChartTooltip />
       <ChartCrosshair
         :template="componentToString(chartConfig, ChartTooltipContent, { hideLabel: true })"
-        :color="(d, i) => seriesColors[i]"
+        :color="(d: Data, i: number) => seriesColors[i]"
       />
     </VisXYContainer>
   </ChartContainer>

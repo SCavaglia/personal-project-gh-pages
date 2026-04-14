@@ -2,9 +2,9 @@
 import H1 from '@/components/typography/H1.vue'
 import WeatherSearchBar from './partials/WeatherSearchBar.vue'
 import H2 from '@/components/typography/H2.vue'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import MunicipalityCard from './partials/MunicipalityCard.vue'
 import WeatherCard from './partials/WeatherCard.vue'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 </script>
 
 <template>
