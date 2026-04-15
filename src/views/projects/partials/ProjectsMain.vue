@@ -10,12 +10,12 @@ import ProjectsChart from './ProjectsChart.vue';
 <template>
   <H1 title="Projects" />
 
-  <div class="flex flex-col items-center gap-6 lg:flex-row mx-auto justify-center">
-    <div class="w-md">
+  <div class="flex flex-col items-center gap-6 lg:flex-row mx-auto justify-center ">
+    <div class="mx-4 lg:w-md">
       <RepoCard link="github.com/SCavaglia" />
       <ProjectCard
         link="/stocks"
-        headerTitle="Stock App"
+        headerTitle="Stocks App"
         headerDescription="Monitor your stock portfolio"
       >
         <template #headerIcon> <ChartLine /> </template>
